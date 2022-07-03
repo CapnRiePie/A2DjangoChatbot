@@ -1,0 +1,151 @@
+{% load static %}
+
+<head>
+<link rel="stylesheet" href="{% static '/css/styleChatbot.css' %}">
+  <title> Chatbot Page </title>
+</head>
+
+<section class="msger">
+  <header class="msger-header">
+    <div class="msger-header-title">
+      <i class="fas fa-comment-alt"></i> <b>Riley's Chatbot</b>
+    </div>
+    <div class="msger-header-options">
+      <span><i class="fas fa-cog"></i></span>
+    </div>
+  </header>
+
+  <main class="msger-chat">
+    <div class="msg left-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">BOT</div>
+          <div class="msg-info-time">12:45</div>
+        </div>
+
+        <div class="msg-text">
+          Hi, What can I do for you today?
+        </div>
+      </div>
+    </div>
+
+    <div class="msg right-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">Riley</div>
+          <div class="msg-info-time">12:46</div>
+        </div>
+
+        <div class="msg-text">
+          Book me a one way flight to Sydney
+        </div>
+      </div>
+    </div>
+
+    <main class="msger-chat">
+    <div class="msg left-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">BOT</div>
+          <div class="msg-info-time">12:47</div>
+        </div>
+
+        <div class="msg-text">
+          What day would you like to fly?
+        </div>
+      </div>
+    </div>
+
+    <div class="msg right-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">Riley</div>
+          <div class="msg-info-time">12:48</div>
+        </div>
+
+        <div class="msg-text">
+          Tomorrow
+        </div>
+      </div>
+    </div>
+
+    <main class="msger-chat">
+    <div class="msg left-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">BOT</div>
+          <div class="msg-info-time">12:48</div>
+        </div>
+
+        <div class="msg-text">
+          What Cabin Class would you like to fly? I have First Class, Economy or Business
+        </div>
+      </div>
+    </div>
+    <div class="msg right-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">Riley</div>
+          <div class="msg-info-time">12:49</div>
+        </div>
+
+        <div class="msg-text">
+          First Class
+        </div>
+      </div>
+    </div>
+ <div class="msg left-msg">
+      <div
+       class="msg-img"
+       style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"
+      ></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">BOT</div>
+          <div class="msg-info-time">12:50</div>
+        </div>
+
+        <div class="msg-text">
+          Okay, I have you flying to Sydney on the 04/07/2022 in First Class, is that correct?
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <form class="msger-inputarea">
+    <input type="text" class="msger-input" placeholder="Enter your message...">
+    <button type="submit" class="msger-send-btn">Send</button>
+  </form>
+</section>
