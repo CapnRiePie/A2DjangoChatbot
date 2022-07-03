@@ -20,4 +20,4 @@ http://127.0.0.1:8000/
 This will take you to a login page. This mockup is used to display how a chatbot app requiring user authentication would work. 
 
 7. Login to the page using a username and password of your choice. 
-8. Click the 'Login' buttonn and you will be directed to the chatbot mockup page showing what chatbot integration would look like. 
+8. Click the 'Login' button and you will be directed to the chatbot mockup page showing what chatbot integration would look like. 
