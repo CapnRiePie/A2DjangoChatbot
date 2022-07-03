@@ -9,7 +9,7 @@ This folder contains the Django project for my chatbot webpage. Please follow th
 cd A2DjangoChatbot-main
 cd Chatbot_Project
 ```
-5. Now that you have navigated to the project folder, run the Django server in order to few the pages:
+5. Now that you have navigated to the project folder, run the Django server in order to view the pages:
 ```
 python manage.py runserver
 ```
